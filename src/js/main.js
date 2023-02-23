@@ -10,94 +10,49 @@ let playerName = '';
 
 const questions = [
   {
-    questionText: 'Vad kallas resultatet i en division?',
+    questionText: 'Vilken populär karaktär heter Fifi Brindacier på franska?',
     answerOptions: [
-      'Nämnare',
-      'Summa',
-      'Kvot'
+      'Pippi Långstrump',
+      'Lotta på Bråkmakargatan',
+      'Emil i Lönneberga'
     ],
-    correctAnswer: 'Kvot',
+    correctAnswer: 'Pippi Långstrump',
   },
   {
-    questionText: 'Vad kallas de två sidorna på ett tyg?',
+    questionText: 'Vilket djur diskar bäst??',
     answerOptions: [
-      'Avig och räta',
-      'Sträv och mjuk',
-      'Insidan och utsidan'
-    ],
-    correctAnswer: 'Avig och räta',
-  },
-  {
-    questionText: 'Hur många sekunder är det på ett dygn (24 h)?',
-    answerOptions: [
-      '86400',
-      '92300',
-      '72500'
-    ],
-    correctAnswer: '86400',
-  },
-  {
-    questionText: 'Hur många gånger åker en upp och ner i bergochdalbanan Helix?',
-    answerOptions: [
-      'Åtta',
-      'Fem',
-      'Sju'
-    ],
-    correctAnswer: 'Sju',
-  },
-  {
-    questionText: 'När stod slaget i Hastings?',
-    answerOptions: [
-      '1066',
-      '1130',
-      '1632'
-    ],
-    correctAnswer: '1066',
-  },
-  {
-    questionText: 'Vad heter fotbollsspelaren som förolyckades över Engelska kanalen 2019?',
-    answerOptions: [
-      'Sala',
-      'Ronaldo',
-      'Lewandowski'
-    ],
-    correctAnswer: 'Sala',
-  },
-  {
-    questionText: 'Vilket djur diskar bäst?',
-    answerOptions: [
+      'Zebran',
       'Disk-kon',
-      'Lejonet',
-      'Katten'
+      'Gorillan'
     ],
     correctAnswer: 'Disk-kon',
   },
   {
-    questionText: 'Hur många stavar gick åt under inspelningen av Harry Potter?',
+    questionText: 'Vilken frukt är den farligaste?',
     answerOptions: [
-      '80',
-      '60',
-      '70'
+      'Blodapelsinen',
+      'Granatäpplet',
+      'Vattenmelonen'
     ],
-    correctAnswer: '80',
+    correctAnswer: 'Granatäpplet',
   },
   {
-    questionText: 'Hur många månader är elefanten dräktig?',
+    questionText: 'Heter det en rak kurva eller ett rak kurva?',
     answerOptions: [
-      '12 månader',
-      '18 månader',
-      '22 månader'
+      'En rak kurva',
+      'Ett rak kurva',
+      'Det finns inga raka kurvor'
     ],
-    correctAnswer: '22 månader',
+    correctAnswer: 'Det finns inga raka kurvor',
   },
   {
-    questionText: 'Vad betyder att ta långa benet före?',
+    questionText: 'Vad heter karaktären som Alexandra nästan delar sitt namn med?',
     answerOptions: [
-      'Mäta vilket ben som är längst',
-      'Gå snabbare',
-      'Hoppa på ett ben'
+      'Daenerys',
+      'Build',
+      'Tamagochi'
     ],
-    correctAnswer: 'Gå snabbare',
+    correctAnswer: 'Daenerys',
   }
 ];
 
