@@ -1,3 +1,5 @@
+import gsap from 'gsap'
+
 gsap.to('#alexandra', { 
     rotation: 360, 
     duration: 3, 
