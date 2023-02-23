@@ -1,4 +1,4 @@
-const gameDescText = 'Alexandra Stormborns quiz, made to make her laugh';
+const gameDescText = '';
 const gameDescription = document.querySelector('#gameDescription');
 
 gameDescription.innerHTML = gameDescText;
