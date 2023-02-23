@@ -1,0 +1,20 @@
+
+body {
+
+    background-color: #3a3a3a;
+    color: #f2d8e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0;
+    font-size: 2rem;
+    background-image: url("../photos/rubiks-kub-sned.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: "Indie Flower",cursive;
+    background-attachment: fixed;
+    padding: 20px;
+    text-shadow: 0 0 5px #2b0621,0 0 8px #081316;
+    font-weight: bold;
+}
