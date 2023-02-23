@@ -1,6 +1,5 @@
 
 body {
-
     background-color: #3a3a3a;
     color: #f2d8e4;
     display: flex;
@@ -17,4 +16,30 @@ body {
     padding: 20px;
     text-shadow: 0 0 5px #2b0621,0 0 8px #081316;
     font-weight: bold;
+h1 { 
+    color: #f53a8e;
+    margin: 0 auto;}
 }
+
+#playerNameInput {
+    font-family: "Indie Flower",cursive;
+    font-size: 1.6rem;
+  }
+
+#startGameBtn {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: "Indie Flower",cursive;
+    margin-left: 60px;
+  }
+
+#questionContainer {
+    font-family: "Indie Flower",cursive;
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-family: "Indie Flower",cursive;
+    font-size: 1.6rem;
+}
+
