@@ -98,6 +98,7 @@ function checkAnswer(e) {
 }
 
 function nextQuestion() {
+  console.log(currentQuestion, questions.length)
   if (currentQuestion >= questions.length) { // > =
     gameOver();
     return;
