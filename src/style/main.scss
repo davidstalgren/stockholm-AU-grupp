@@ -1,7 +1,7 @@
 
 body {
-    background-color: #3a3a3a;
-    color: #f2d8e4;
+    background-color: $secondaryColor200;
+    color: $primaryColor100;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     text-shadow: 0 0 5px #2b0621,0 0 8px #081316;
     font-weight: bold;
 h1 { 
-    color: #f53a8e;
+    color: $secondaryColor100;
     margin: 0 auto;}
 }
 
