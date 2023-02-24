@@ -123,6 +123,7 @@ function restartGame() {
 }
 
 function gameOver() {
+  questionFeedback.innerHTML = "";
   document.querySelector('#gameOver').style.display = 'block';
   document.querySelector('#questionContainer').classList.add('hidden');
   document.querySelector('#pointsContainer').innerHTML = `Du fick ${points} poäng!`;
