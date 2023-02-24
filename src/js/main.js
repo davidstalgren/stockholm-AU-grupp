@@ -90,12 +90,10 @@ function checkAnswer(e) {
   // så vi vill ha rätt svar för föregående fråga
   const correctAnswer = questions[currentQuestion - 1].correctAnswer;
   if (userAnswer === correctAnswer) { // jämföra frågans rätt svar med tryckt knapp
-    // ge ett poäng!
     points++;
     questionFeedback.innerHTML = "Yay! Du är inte komplett korkad :D";
   } else {
-    // fel svar, samma poäng
-    questionFeedback.innerHTML = "Ack ack!";
+    questionFeedback.innerHTML = "Ack ack! Besviken!";
   }
   nextQuestion();
 }
