@@ -118,6 +118,8 @@ document.querySelector('#restartGameBtn').addEventListener('click', restartGame)
 function restartGame() {
   document.querySelector('#gameOver').style.display = 'none';
   document.querySelector('#playerDetails').style.display = 'block';
+  document.querySelector('#scoreBoard').classList.add('hidden');
+  document.querySelector('#restartGameBtn').classList.add('hidden');
   currentQuestion = 0;
   points = 0;
 }
@@ -126,6 +128,14 @@ function gameOver() {
   questionFeedback.innerHTML = "";
   document.querySelector('#gameOver').style.display = 'block';
   document.querySelector('#questionContainer').classList.add('hidden');
+  document.querySelector('#scoreBoard').classList.remove('hidden');
+  document.querySelector('#restartGameBtn').classList.remove('hidden');
   document.querySelector('#pointsContainer').innerHTML = `Du fick ${points} poäng!`;
-  // document.querySelector('#gameOver').classList.toggle('hidden');
 }
+
+/*
+function createScores() {
+  let scores = document.createElement('li');
+  
+  scores.appendChild('ol');
+} */
