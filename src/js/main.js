@@ -74,6 +74,7 @@ const questionTextDiv = document.querySelector('#questionText');
 const answer1Btn = document.querySelector('#answer1');
 const answer2Btn = document.querySelector('#answer2');
 const answer3Btn = document.querySelector('#answer3');
+const questionFeedback = document.querySelector('#questionFeedback');
 
 answer1Btn.addEventListener('click', checkAnswer);
 answer2Btn.addEventListener('click', checkAnswer);
@@ -91,8 +92,10 @@ function checkAnswer(e) {
   if (userAnswer === correctAnswer) { // jämföra frågans rätt svar med tryckt knapp
     // ge ett poäng!
     points++;
+    questionFeedback.innerHTML = "Yay! Du är inte komplett korkad :D";
   } else {
-    // ge minus
+    // fel svar, samma poäng
+    questionFeedback.innerHTML = "Ack ack!";
   }
   nextQuestion();
 }
