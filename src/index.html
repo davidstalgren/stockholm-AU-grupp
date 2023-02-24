@@ -19,10 +19,8 @@
     <title>Sussie och Aurelias kluriga quiz</title>
   </head>
   <body>
-    <h1>Alexandra Stormborns big Quiz</h1>
-    <div id="gameDescription"></div>
-    <img src="img/dragon.png" class="dragon" />
-    <img src="img/alexandra_stormborn.png" id="alexandra" class="alexandra" />
+  <h1>Alexandra Stormborns big Quiz</h1>
+    
     <div id="playerDetails" class="player-details">
       <label>
         Ditt namn: <input type="text" id="playerNameInput" value="" />
@@ -38,13 +36,19 @@
       <button id="answer3"></button>
     </div>
 
-    <div id="gameOver" class="hidden">
+    <div id="gameOver" class="hidden game-over">
       Spelet är slut!
       <p id="pointsContainer"></p>
       <p>
         <button id="restartGameBtn">Spela igen</button>
       </p>
     </div>
+    
+    <div id="gameDescription"></div>
+    <img src="img/dragon.png" class="dragon" />
+    <img src="img/alexandra_stormborn.png" id="alexandra" class="alexandra" />
+
+    
 
     <script src="js/main.js" type="module"></script>
     <script src="js/animation.js" type="module"></script>
