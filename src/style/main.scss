@@ -2,7 +2,10 @@
 @import 'image_styling';
 
 body {
-    background-color: #3a3a3a;
+    //background-color: #dec8e8;
+    background-image: url("/src/img/pastel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #f2d8e4;
     display: flex;
     flex-direction: column;
