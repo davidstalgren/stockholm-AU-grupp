@@ -102,6 +102,7 @@ function nextQuestion() {
   console.log(currentQuestion, questions.length)
   if (currentQuestion >= questions.length) { // > =
     gameOver();
+    displayScoreBoard();
     return;
   }
 
@@ -132,9 +133,14 @@ function gameOver() {
   document.querySelector('#pointsContainer').innerHTML = `Du fick ${points} poäng!`;
 }
 
-/*
-function createScores() {
-  let scores = document.createElement('li');
-  
-  scores.appendChild('ol');
-} */
+function displayScoreBoard() {
+  let scoreBoard = document.querySelector('#scoreBoard')
+  playerName = document.querySelector('#playerNameInput').value;
+
+  scoreBoard.innerHTML += `      
+  <ol>
+    <li>Namn: ${playerName} Poäng: ${points}</li>
+  </ol>`;
+
+
+}
