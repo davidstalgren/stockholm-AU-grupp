@@ -6,7 +6,7 @@ body {
     background-image: url("/src/img/pastel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #f2d8e4;
+    color: #e21471;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,11 +16,21 @@ body {
     font-family: "Indie Flower",cursive;
     background-attachment: fixed;
     padding: 20px;
-    text-shadow: 0 0 5px #2b0621,0 0 8px #081316;
+    
     font-weight: bold;
 h1 { 
     color: #f53a8e;
-    margin: 0 auto;}
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #3a3539,0 0 8px #313d41;
+  }
+}
+
+.game-over {
+  background-color: #c8e2e8;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 5px #3a3539,0 0 8px #313d41;
 }
 
 #playerNameInput {
@@ -38,6 +48,7 @@ h1 {
 #questionContainer {
     font-family: "Indie Flower",cursive;
     font-size: 1.6rem;
+    box-shadow: 0 0 5px #3a3539,0 0 8px #313d41;
   }
 
   button {

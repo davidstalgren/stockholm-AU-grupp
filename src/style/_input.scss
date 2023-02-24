@@ -1,19 +1,23 @@
 .player-details{
-  background-color: rgb(36, 36, 36);
+  background-color: #c8e2e8;
   width: 600px;
   border-radius: 25px;
   padding: 20px;
   position: relative;
-  bottom: 180px;
+  margin-top: 15px;
+  //bottom: 180px;
   left: 50px;
+  box-shadow: 0 0 5px #3a3539,0 0 8px #313d41;
 }
 
 .question-container{
-  background-color: rgb(36, 36, 36);
+  background:#c8e2e8;
   border-radius: 25px;
   padding: 20px;
   position: relative;
-  bottom: 180px;
+  box-shadow: 0 0 5px #3a3539,0 0 8px #313d41;
+
+//  bottom: 180px;
 }
 
 button {
